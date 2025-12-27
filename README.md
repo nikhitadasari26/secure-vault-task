@@ -12,6 +12,23 @@ A big risk in crypto is someone "replaying" a transaction (using the same permis
 * **Memory Tracking**: Once a signature is used, the Manager remembers it and marks it as "Used." If someone tries to use it again, the transaction fails.
 * **Specific Location**: Each permission is locked to this specific vault and this specific network (Chain ID). You can't steal a permission from here and use it somewhere else.
 
+## Project Structure
+
+secure-vault-task/
+├── contracts/               
+│   ├── SecureVault.sol      
+│   └── AuthorizationManager.sol 
+├── scripts/                
+│   └── deploy.js            
+├── docker/                 
+│   └── entrypoint.sh       
+├── Dockerfile              
+├── docker-compose.yml      
+├── hardhat.config.js       
+├── package.json            
+└── README.md                
+
+
 ## How to run it
 
 I've set this up so you don't have to install any complex blockchain tools. You just need **Docker**.
