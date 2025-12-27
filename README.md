@@ -13,7 +13,7 @@ A big risk in crypto is someone "replaying" a transaction (using the same permis
 * **Specific Location**: Each permission is locked to this specific vault and this specific network (Chain ID). You can't steal a permission from here and use it somewhere else.
 
 ## Project Structure
-
+```
 secure-vault-task/
 ├── contracts/               
 │   ├── SecureVault.sol      
@@ -26,7 +26,8 @@ secure-vault-task/
 ├── docker-compose.yml      
 ├── hardhat.config.js       
 ├── package.json            
-└── README.md                
+└── README.md     
+```           
 
 
 ## How to run it
