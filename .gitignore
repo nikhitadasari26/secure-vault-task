@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing and Coverage
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+# Environment variables
+.env
+
+# Docker
+.docker
+
+# OS files
+.DS_Store
+Thumbs.db
